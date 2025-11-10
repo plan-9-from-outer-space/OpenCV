@@ -1,0 +1,16 @@
+Notes:
+
+* Python 3.12 is required (3.13+ is not yet supported)
+
+* rd /s /q runs           [to remove a directory]
+* .venv\Scripts\activate  [to activate an env]
+
+git clone https://github.com/apple/ml-depth-pro
+uv add "depth-pro @ git+https://github.com/apple/ml-depth-pro"
+uv add "httpx @ git+https://github.com/encode/httpx"
+
+For section 17:
+* https://github.com/ageitgey/face_recognition/issues/608
+
+* Must download and install: dlib-19.24.99-cp312-cp312-win_amd64.whl
+
